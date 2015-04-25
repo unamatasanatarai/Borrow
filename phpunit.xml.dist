@@ -10,8 +10,8 @@
         <const name="CLI" value="1"/>
     </php>
     <testsuites>
-        <testsuite name="nestle">
-            <directory>./tests/nestle/</directory>
+        <testsuite name="general">
+            <directory>tests/general/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
