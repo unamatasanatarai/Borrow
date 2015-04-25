@@ -4,8 +4,7 @@ class Home extends Borrow\Controller
 {
   public function index()
   {
-    Session::start(SESSION_NAME);
-    echo 'index';
+    return 'index';
   }
 
   public function show($what){
