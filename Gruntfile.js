@@ -24,16 +24,13 @@ module.exports = function(grunt) {
 			}
 		},
 		min: {
-		    dist: {
-		        src: [
-		        	'resources/js/vendor/jquery-1.11.2.min.js',
-		        	'resources/js/vendor/moment.min.js',
-		        	'resources/js/vendor/bootstrap.js',
-		        	'resources/js/vendor/bootstrap-datetimepicker.min.js',
-		        	'resources/js/admin_scripts.js'
-		        ],
-		        dest: 'resources/js/admin.js'
-		    }
+			dist: {
+				src: [
+					'public/js/vendor/jquery-1.11.2.min.js',
+					'public/js/vendor/bootstrap.min.js',
+				],
+				dest: 'public/js/s.js'
+			}
 		},
 		watch: {
 			css: {
