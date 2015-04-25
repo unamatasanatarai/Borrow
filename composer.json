@@ -1,6 +1,6 @@
 {
-    "name": "merlinallegro/merlinallegro",
-    "description": "MerlinAllegro",
+    "name": "unamatasanatarai/borrow",
+    "description": "Borrow",
     "license": "MIT",
     "require":{
         "phpunit/phpunit": "~4.6"
