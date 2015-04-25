@@ -17,10 +17,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/unamatasanatarai/borrow-framework.git"
-        },
-        {
-            "type": "vcs",
-            "url" : "https://rassarski@bitbucket.org/rassarski/allegrowebapi.git"
         }
     ],
     "scripts": {
