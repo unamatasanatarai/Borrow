@@ -6,7 +6,8 @@
         "phpunit/phpunit": "~4.6"
     },
     "require-dev": {
-        "unamatasanatarai/borrow-framework": "dev-master"
+        "unamatasanatarai/borrow-framework": "dev-master",
+        "unamatasanatarai/phputils": "dev-master"
     },
     "autoload": {
         "classmap": [
@@ -17,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/unamatasanatarai/borrow-framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/unamatasanatarai/phputils"
         }
     ],
     "scripts": {
