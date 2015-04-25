@@ -1,8 +1,7 @@
 <?php
 ob_start();
-include APP . 'bootstrap/bootstrap.php';
-Dotenv::load(ROOT);
-Log::start(STORAGE . 'logs/');
+include ROOT . 'app/bootstrap/bootstrap.php';
+
 $router = new Borrow\Dispatcher();
 $router->dispatch();
 ob_end_flush();

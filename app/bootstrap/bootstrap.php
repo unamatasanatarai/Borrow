@@ -1,9 +1,8 @@
 <?php
 date_default_timezone_set('Europe/Warsaw');
 /**
- * PATHS
+ * Environment
  */
-define('STORAGE', ROOT . 'storage/');
 define('CLI', php_sapi_name() == 'cli');
 
 /**
@@ -15,4 +14,4 @@ include ROOT . 'vendor/autoload.php';
 /**
  * Config
  */
-include APP . 'config/config.php';
+include ROOT . 'app/config/config.php';
