@@ -1,0 +1,7 @@
+.env
+.sass-cache
+composer.lock
+phpunit.xml
+
+node_modules/
+vendor/

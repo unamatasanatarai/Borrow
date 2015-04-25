@@ -1,0 +1,35 @@
+{
+    "name": "merlinallegro/merlinallegro",
+    "description": "MerlinAllegro",
+    "license": "MIT",
+    "require":{
+        "phpunit/phpunit": "~4.6"
+    },
+    "require-dev": {
+        "unamatasanatarai/borrow-framework": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "app/resources/controllers/"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/unamatasanatarai/borrow-framework.git"
+        },
+        {
+            "type": "vcs",
+            "url" : "https://rassarski@bitbucket.org/rassarski/allegrowebapi.git"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ],
+        "post-update-cmd": [
+            "npm install"
+        ]
+    },
+    "minimum-stability": "dev"
+}
