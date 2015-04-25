@@ -3,15 +3,15 @@
     "description": "Borrow",
     "license": "MIT",
     "require":{
-        "phpunit/phpunit": "~4.6"
+        "unamatasanatarai/borrow-framework": "dev-master",
     },
     "require-dev": {
-        "unamatasanatarai/borrow-framework": "dev-master",
+        "phpunit/phpunit": "~4.6"
         "unamatasanatarai/phputils": "dev-master"
     },
     "autoload": {
         "classmap": [
-            "app/resources/controllers/"
+            "app/resources/"
         ]
     },
     "repositories": [
